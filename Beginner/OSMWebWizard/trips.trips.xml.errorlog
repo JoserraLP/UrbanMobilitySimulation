@@ -1,0 +1,5 @@
+Warning: At actuated tlLogic 'cluster_240357513_2675516586_365764938', linkIndex 3 has no controlling detector
+Warning: At actuated tlLogic 'cluster_240357513_2675516586_365764938', linkIndex 4 has no controlling detector
+Warning: busStop '4313286126' on lane '22358125_0' is too short for vehicle '0_bus_LC:0'.
+Warning: No connection between edge '364967317' and edge '33176188#1' found.
+Warning: busStop '7973000957' for vehicle '2_bus_L2:0' on lane '364967317_0' is not downstream the current route.

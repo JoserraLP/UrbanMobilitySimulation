@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on mar 02 feb 2021 09:00:02 CET by Eclipse SUMO netedit Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="/home/eclipse-sumo/Desktop/SUMO-Projects/Autobahn/autobahn.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="1.6" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-33.96,48.77,430.81,224.16" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id=":gneJ2_0" function="internal">
+        <lane id=":gneJ2_0_0" index="0" speed="36.11" length="0.12" shape="-21.83,44.39 -21.66,44.40"/>
+        <lane id=":gneJ2_0_1" index="1" speed="36.11" length="0.12" shape="-21.94,47.59 -21.89,47.59"/>
+    </edge>
+    <edge id=":gneJ3_0" function="internal">
+        <lane id=":gneJ3_0_0" index="0" speed="36.11" length="0.26" shape="428.01,210.78 428.13,210.97"/>
+        <lane id=":gneJ3_0_1" index="1" speed="36.11" length="0.26" shape="425.26,212.42 425.42,212.68"/>
+    </edge>
+
+    <edge id="entry" from="gneJ0" to="gneJ2" priority="-1" length="100.00">
+        <lane id="entry_0" index="0" speed="36.11" length="100.00" shape="-33.79,43.98 -21.83,44.39"/>
+        <lane id="entry_1" index="1" speed="36.11" length="100.00" shape="-33.90,47.18 -21.94,47.59"/>
+    </edge>
+    <edge id="exit" from="gneJ3" to="gneJ1" priority="-1" length="100.00">
+        <lane id="exit_0" index="0" speed="36.11" length="100.00" shape="428.13,210.97 434.86,221.59"/>
+        <lane id="exit_1" index="1" speed="36.11" length="100.00" shape="425.42,212.68 432.16,223.30"/>
+    </edge>
+    <edge id="longEdge" from="gneJ2" to="gneJ3" priority="-1" length="2000.00" shape="-22.00,49.19 197.77,64.77 362.06,109.55 423.98,213.39">
+        <lane id="longEdge_0" index="0" speed="36.11" length="2000.00" shape="-21.66,44.40 198.58,60.02 365.19,105.43 428.01,210.78"/>
+        <lane id="longEdge_1" index="1" speed="36.11" length="2000.00" shape="-21.89,47.59 198.04,63.19 363.10,108.18 425.26,212.42"/>
+    </edge>
+
+    <junction id="gneJ0" type="dead_end" x="-33.96" y="48.77" incLanes="" intLanes="" shape="-33.96,48.77 -33.73,42.38"/>
+    <junction id="gneJ1" type="dead_end" x="430.81" y="224.16" incLanes="exit_0 exit_1" intLanes="" shape="436.21,220.73 430.81,224.16"/>
+    <junction id="gneJ2" type="priority" x="-22.00" y="49.19" incLanes="entry_0 entry_1" intLanes=":gneJ2_0_0 :gneJ2_0_1" shape="-21.94,49.19 -21.49,42.81 -21.84,42.79 -22.06,49.19">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="gneJ3" type="priority" x="423.98" y="213.39" incLanes="longEdge_0 longEdge_1" intLanes=":gneJ3_0_0 :gneJ3_0_1" shape="424.07,213.54 429.48,210.11 429.39,209.96 423.89,213.24">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+
+    <connection from="entry" to="longEdge" fromLane="0" toLane="0" via=":gneJ2_0_0" dir="s" state="M"/>
+    <connection from="entry" to="longEdge" fromLane="1" toLane="1" via=":gneJ2_0_1" dir="s" state="M"/>
+    <connection from="longEdge" to="exit" fromLane="0" toLane="0" via=":gneJ3_0_0" dir="s" state="M"/>
+    <connection from="longEdge" to="exit" fromLane="1" toLane="1" via=":gneJ3_0_1" dir="s" state="M"/>
+
+    <connection from=":gneJ2_0" to="longEdge" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":gneJ2_0" to="longEdge" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":gneJ3_0" to="exit" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":gneJ3_0" to="exit" fromLane="1" toLane="1" dir="s" state="M"/>
+
+</net>

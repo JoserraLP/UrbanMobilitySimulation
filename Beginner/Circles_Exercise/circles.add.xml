@@ -1,0 +1,28 @@
+<additionals>
+    <rerouter id="rerouter_0" edges="edge0">
+        <interval end="1e9">
+           <destProbReroute id="edge1"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_1" edges="edge1">
+        <interval end="1e9">
+           <destProbReroute id="edge0"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_2" edges="edge4">
+        <interval end="1e9">
+           <destProbReroute id="edge5" probability="0.50"/>
+	   <destProbReroute id="edge41" probability="0.50"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_3" edges="edge41">
+        <interval end="1e9">
+           <destProbReroute id="edge42"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_4" edges="edge42">
+        <interval end="1e9">
+           <destProbReroute id="edge5"/>
+        </interval>
+    </rerouter>
+</additionals>

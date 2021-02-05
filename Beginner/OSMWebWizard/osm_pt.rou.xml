@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2021-02-01 11:43:19.309552 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ UNKNOWN
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_L1:0" edges="31548939#0 31548939#1 31548939#2 31548939#3 31548939#4 31548939#5 31548939#6 31548939#7 25215918 713397869#0 713397869#1 89209796#0 89209796#1 89209796#2 29438758#1 29438758#2 33176188#0 33176188#1" >
+        <stop busStop="1658284989" duration="30.00" until="65.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_LC:0" edges="22358125 310324548 310627385#0 39040260 675949211 310324549#0 310467867 362655714 392249363 373226713 30824100#0 30824100#1 30824100#2 30824100#5 419864788 713397871 25215919#2 25215919#3 25215918 713397869#0 713397869#1 310324536#0 310763127#0 310763127#1 310763127#2 310763127#3 310763127#4 310763127#5 310763127#6 419864787#0 419864787#1" >
+        <stop busStop="4313286126" duration="30.00" until="34.0"/> <!-- None -->
+        <stop busStop="1658284990" duration="30.00" until="229.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L2:0" edges="31548939#0 31548939#1 31548939#2 31548939#3 31548939#4 31548939#5 31548939#6 31548939#7 25215918 713397869#0 713397869#1 310324536#0 310763127#0 310763127#1 310763127#2 310763127#3 310763127#4 310763127#5 310763127#6 419864787#0 419864787#1 22358125 310324548 310627385#0 39040260 362655713 25171213" >
+        <stop busStop="1658284989" duration="30.00" until="77.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L40:0" edges="713397869#0 713397869#1 25215919#2 25215919#3 25215918" >
+        <stop busStop="1658284989" duration="30.00" until="41.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L6:0" edges="-107173639#2 -107173639#1 -107173639#0 -123693606 -107136392#1 -107136392#0 311219428 123693607#0 123693607#1 123693607#2 388184135#0 30319185 34066807#0 34066807#1 49946922 -60579141#2 -60579141#1 -60579141#0 -30318399#0 30318401 311727446#0 311727446#1 54377356#0 54377356#2 24524712#0 24524712#1 24524712#2 24524712#3 311363240 713397863#0 713397863#1 38084535 388248843#0 33176188#0 33176188#1" >
+        <stop busStop="-4313286134" duration="30.00" until="38.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L4:0" edges="55693616#0 55693616#1 463648725 311505705#0 374948156 374948157 24304831 463648732 463648723#0 463648723#2 756248871#0 756248871#1 30163123#1 30163123#2 30163123#3 30163123#4 25215918 713397869#0 713397869#1 25215919#2 25215919#3 23823479#0 23823479#3 23823479#4 23823479#5 312814739#1 756248872#0 756248872#1 756248872#3 756248872#4 463648721 310909354#0 310909352 299080624 23069767 463648715#0 463648715#1" >
+        <stop busStop="6291931074" duration="30.00" until="48.0"/> <!-- None -->
+        <stop busStop="1658284989" duration="30.00" until="275.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L8:0" edges="31548939#0 31548939#1 31548939#2 31548939#3 31548939#4 31548939#5 31548939#6 31548939#7 25215918 713397869#0 713397869#1 25215917#1 25215917#2 25215917#3 25215917#4 25215917#5 25215917#6 311363249#0 311363249#1 311363249#2 311363249#3 311219430 24524711#0 24524711#1 24524711#2 24524711#3 311450566 24610184#0 -388252037#1 -388252037#0 388252037#0 388252037#1 30271219 311505709#0 311505709#1 311727446#0 311727446#1 311505716 311450566 24610184#0 24610187#1 24610187#2 120569625#0 206664505#0 206664504 -34067365#1 -34067373 311219430 311363251 311363250 25215916#0 25215916#1 25215916#2 25215916#3 25215916#4 25215916#5 25215916#6 25215919#2 25215919#3 24045454#0 24045454#1 24045454#2" >
+        <stop busStop="1658284989" duration="30.00" until="66.0"/> <!-- None -->
+        <stop busStop="4313286129" duration="30.00" until="166.0"/> <!-- None -->
+        <stop busStop="-7973000939" duration="30.00" until="249.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L5:0" edges="140955932#0 463648716 299080624 311363239 311505705#0 374948156 374948157 24304831 463648732 463648723#0 463648723#2 756248871#0 756248871#1 30163123#1 30163123#2 30163123#3 30163123#4 25215918 713397869#0 713397869#1 25215919#2 25215919#3 23823479#0 23823479#3 23823479#4 23823479#5 312814739#1 756248872#0 756248872#1 756248872#3 756248872#4 463648721 310909354#0 29464383 713731428 463648718#0" >
+        <stop busStop="1658284989" duration="30.00" until="363.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_L7:0" edges="55693616#0 55693616#1 463648725 311505705#0 374948156 374948157 24304831 463648732 463648723#0 463648723#2 756248871#0 756248871#1 30163123#1 30163123#2 30163123#3 30163123#4 25215918 713397869#0 713397869#1 25215917#1 25215917#2 25215917#3 25215917#4 25215917#5 25215917#6 311363249#0 311363249#1 311363249#2 311363249#3 311219430 24524711#0 24524711#1 24524711#2 24524711#3 311450566 24610184#0 -388252037#1 -388252037#0 388252037#0 388252037#1 30271219 311505709#0 311505709#1 311727446#0 311727446#1 311505716 311450566 24610184#0 24610187#1 24610187#2 120569625#0 206664505#0 206664504 -34067365#1 -34067373 311219430 311363251 311363250 25215916#0 25215916#1 25215916#2 25215916#3 25215916#4 25215916#5 25215916#6 25215919#2 25215919#3 23823479#0 23823479#3 23823479#4 23823479#5 312814739#1 756248872#0 756248872#1 756248872#3 756248872#4 463648721 310909354#0 310909352 299080624 23069767 463648715#0 463648715#1" >
+        <stop busStop="6291931074" duration="30.00" until="48.0"/> <!-- None -->
+        <stop busStop="1658284989" duration="30.00" until="335.0"/> <!-- None -->
+        <stop busStop="4313286129" duration="30.00" until="441.0"/> <!-- None -->
+        <stop busStop="-7973000939" duration="30.00" until="523.0"/> <!-- None -->
+    </route>
+    <flow id="pt_bus_L1:0" type="pt_bus" route="pt_bus_L1:0" begin="52.0" end="3652.0" period="600" line="L1:0" >
+        <param key="name" value="L1 (Plaza Obispo Galarza - Aldea Moret)"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_LC:0" type="pt_bus" route="pt_bus_LC:0" begin="15.0" end="3615.0" period="600" line="LC:0" >
+        <param key="name" value="LC (Av. Virgen de Guadalupe - Campus Universitario)"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_bus_L2:0" type="pt_bus" route="pt_bus_L2:0" begin="133.0" end="3733.0" period="600" line="L2:0" >
+        <param key="name" value="L2 (Mejostilla - Espíritu Santo)"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_L40:0" type="pt_bus" route="pt_bus_L40:0" begin="535.0" end="4135.0" period="600" line="L40:0" >
+        <param key="name" value="L40 (Múltiples - Valdesalor)"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_L6:0" type="pt_bus" route="pt_bus_L6:0" begin="383.0" end="3983.0" period="600" line="L6:0" >
+        <param key="name" value="L6 (Plaza Obispo Galarza - Residencial Universidad)"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_bus_L4:0" type="pt_bus" route="pt_bus_L4:0" begin="165.0" end="3765.0" period="600" line="L4:0" >
+        <param key="name" value="L4 (Macondo - Entrada Ceres Golf)"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_L8:0" type="pt_bus" route="pt_bus_L8:0" begin="441.0" end="4041.0" period="600" line="L8:0" >
+        <param key="name" value="L8 (Sierra de San Pedro - Cáceres El Viejo)"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_L5:0" type="pt_bus" route="pt_bus_L5:0" begin="253.0" end="3853.0" period="600" line="L5:0" >
+        <param key="name" value="L5 (Polígono Capellanías - Polígono Charca Musia)"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_L7:0" type="pt_bus" route="pt_bus_L7:0" begin="406.0" end="4006.0" period="600" line="L7:0" >
+        <param key="name" value="L7 (Residencial Los Arcos - Casaplata)"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+</routes>

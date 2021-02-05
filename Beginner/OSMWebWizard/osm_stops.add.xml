@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Feb  1 11:43:18 2021 by Eclipse SUMO netconvert Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="/usr/share/sumo/data/typemap/osmNetconvert.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-4313286134" lane="-107173639#2_0" startPos="13.42" endPos="28.42" friendlyPos="true" lines="L6"/>
+    <busStop id="-7973000939" name="Rda. S. Francisco 4 (cruce c/Romero Ruiz)" lane="-388252037#1_0" startPos="54.17" endPos="69.17" friendlyPos="true" lines="L7 L8"/>
+    <busStop id="1658284989" name="Avenida Clara Campoamor (Múltiples)" lane="713397869#0_0" startPos="30.95" endPos="45.95" friendlyPos="true" lines="L1 L2 L4 L5 L7 L8 L40"/>
+    <busStop id="1658284990" name="Avenida Clara Campoamor (Múltiples)" lane="25215919#2_0" startPos="39.66" endPos="54.66" friendlyPos="true" lines="LC"/>
+    <busStop id="4313286126" name="Plaza de América (parada taxis)" lane="22358125_0" startPos="27.59" endPos="42.59" friendlyPos="true" lines="LC"/>
+    <busStop id="4313286129" name="Plaza de los Conquistadores (cruce Av. Brocense)" lane="311363249#2_0" startPos="27.98" endPos="38.24" friendlyPos="true" lines="L7 L8"/>
+    <busStop id="6291931074" name="Av. Virgen de Guadalupe (C.D. El Perú)" lane="55693616#0_0" startPos="99.35" endPos="114.35" friendlyPos="true" lines="L4 L7"/>
+    <busStop id="7973000957" name="Av. Portugal (Pza. América)" lane="364967317_0" startPos="0.00" endPos="12.12" friendlyPos="true" lines="L2"/>
+</additional>
